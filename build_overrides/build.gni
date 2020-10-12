@@ -5,4 +5,8 @@
 # Set for ANGLE. This buildroot is close enough to Chromium's buildroot
 # (with the addition of some dummy files) to allow building in this mode; the
 # non-Chromium build mode for ANGLE is far too different.
-build_with_chromium = true
+#
+# This is disabled to enable building with SPIRV-tools. TODO(chriscraws) resolve this
+# build_with_chromium = true
+
+
