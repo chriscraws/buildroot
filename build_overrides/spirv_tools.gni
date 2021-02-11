@@ -1,0 +1,7 @@
+# This conflicts with another rule
+# TODO(chriscraws) figure out how to resolve the conflict.
+build_with_chromium = false
+
+spirv_tools_standalone = false
+spirv_tools_googletest_dir = "//third_party/googletest"
+spirv_tools_spirv_headers_dir = "//third_party/spirv_headers"
